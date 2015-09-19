@@ -1,0 +1,19 @@
+java-1.8.0-openjdk
+java-1.8.0-openjdk-javadoc
+java-1.8.0-openjdk-devel
+
+tomcat (7 Apache)
+tomcat-webapps (Apache)
+# from package, tomcat is not configured to run as a service.
+# First thing after download, run 
+# systemclt enable tomcat.service 
+# to create a symlink, then start the service.
+
+
+ant (1.9.4 Apache)
+
+# notas: para ver contenidos de un paquete usar
+# dnf repoquery -l <nombre>
+
+# axis2: use WAR distribution from website and 
+# copy to the webapps folder in tomcat
